@@ -13,8 +13,6 @@ https://www.kaggle.com/rakannimer/billboard-top-lyrics-analysis/data
 This data has 5,000 songs from 1965-2015. It is formatted in such a way where it has six columns: Rank, Song, Artists, Year,
 Lyrics, and Source respectively. However, in ‘generate-lyrics-rhyme’ procedure, the dataset was altered to fit our code. 
 We extracted the fifth column (lyrics) of every list of lists and outputted them together in a single file.
-We also changed the data set from the original proposal because the original data set was too large and each lyric cell
-contained several #\newline characters which made the program read each lyric line as separate lists.
 
 Algorithm & Analysis:
 The ‘generate-paragraph-rhyme’ takes 3 parameters, end-word (a list of two strings), input-filepath, and num-of-lines. It uses
